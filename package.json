@@ -1,0 +1,25 @@
+{
+  "name": "laravel-elixir-html-compress",
+  "version": "1.0.0",
+  "description": "Compress laravel views html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/malyusha/laravel-elixir-html-compress.git"
+  },
+  "keywords": [
+    "Laravel",
+    "laravel-elixir",
+    "html-minification",
+    "laravel-elixir-minify"
+  ],
+  "author": "Igor Malyuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/malyusha/laravel-elixir-html-compress/issues"
+  },
+  "homepage": "https://github.com/malyusha/laravel-elixir-html-compress#readme"
+}
