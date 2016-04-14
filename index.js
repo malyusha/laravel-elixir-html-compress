@@ -14,18 +14,17 @@ var config = Elixir.config;
 
 /*
 |--------------------------------------------------------------------------
-| SVG sprites compilation task
+| HTML compress task
 |--------------------------------------------------------------------------
 |
-| This task compiles svg sprites into one.
+| This task compresses html using gulp-htmlmin plugin
 |
 */
 
 Elixir.extend('htmlCompress', function(src, output, options) {
     var paths;
     //Because laravel-elixir doesn't have property for framework path
-    //We'll define it ourselves. You can also create elixir.json file
-    //with storage folder property to get frameworkPath different
+    //We'll define it ourselves
     var frameworkPath =  'storage/framework';
     options = options || {};
 
